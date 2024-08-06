@@ -18,17 +18,13 @@ ejemplos:
 código original para el RO y lectura de CO2
  https://www.teachmemicro.com/use-mq-7-carbon-monoxide-sensor/  
 
-
-*/
-
-
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
 
 // Credenciales de la red wifi.
-const char* ssid = "TOPA-LINK";
-const char* password = "30330234";
+const char* ssid = "********";
+const char* password = "********";
 
 
 //ip del servidor mqtt en Home Assistant
